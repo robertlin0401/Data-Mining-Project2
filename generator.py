@@ -51,7 +51,7 @@ def command_handler():
 def help_command(err_msg):
     print(err_msg, end="")
     print("Usages:")
-    print("  exec | python {} -m <mode> -n <number>".format(sys.argv[0]))
+    print("  exec | python {} -m <mode> [-n <number>]".format(sys.argv[0]))
     print("  help | python {} -h".format(sys.argv[0]))
     print("Options:")
     print("  -h, --help   | Show usages and list available options.")

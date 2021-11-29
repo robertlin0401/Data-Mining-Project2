@@ -158,7 +158,7 @@ male,O,Aries,general,hard-working,nervous,none,bad,no,no,1
 male,B,Cancer,clumsy,lazy,relaxed,once,bad,yes,yes,0
 male,A,Leo,general,lazy,relaxed,once,good,yes,no,1
 male,A,Taurus,clumsy,hard-working,relaxed,none,good,no,yes,1
-female,O,Virgo,talented,lazy,relaxed,none,good,yes,no,1
+male,O,Virgo,talented,lazy,relaxed,none,good,yes,no,1
 female,AB,Sagittarius,talented,lazy,relaxed,none,good,no,yes,1
 female,O,Pisces,talented,hard-working,relaxed,none,bad,no,no,1
 female,A,Scorpio,clumsy,hard-working,nervous,once,bad,yes,no,1
@@ -198,3 +198,4 @@ female,A,Taurus,talented,hard-working,nervous,none,good,yes,yes,1
 female,AB,Pisces,clumsy,hard-working,relaxed,twice,bad,no,yes,1
 female,AB,Scorpio,talented,hard-working,relaxed,once,bad,no,no,1
 female,O,Scorpio,talented,general,relaxed,none,good,yes,yes,1
+female,O,Gemini,general,lazy,nervous,once,good,yes,no,1

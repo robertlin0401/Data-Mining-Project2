@@ -8,6 +8,7 @@ COMMAND_CORRECT = 1
 mode = 0
 number = 0
 def command_handler():
+    global mode, number
     argc = len(sys.argv)
 
     # Check if there is -h or --help flag.
@@ -44,7 +45,7 @@ def command_handler():
         return help_command("No number value! Please check out your command.\n")
     if has_flag_used[1] and mode == 0:
         return help_command("Number option is not valid in mode 0! Please check out your command.\n")
-    
+
     return COMMAND_CORRECT
 
 def help_command(err_msg):

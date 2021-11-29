@@ -134,7 +134,24 @@ def get_result(target, attr_list, rule_list, option_dict):
     return result
 
 def generate_training_data():
-    return
+    import random
+    random.seed(0)
+
+    # Load dictionary.
+    dictionary = []
+    dict_reader = csv.reader(open("dictionary.csv", newline=''))
+    for i in dict_reader:
+        dictionary.append(i)
+
+    # Generate training data.
+    writer = csv.writer(open("data.csv", 'w', newline=''))
+    writer.writerow(dictionary[0])
+    male_number = int(0.8 * number)
+    female_number = number - male_number
+    for i in range(male_number):
+        writer.writerow(dictionary[random.randint(1, int(len(dictionary) / 2))])
+    for i in range(female_number):
+        writer.writerow(dictionary[random.randint(int(len(dictionary) / 2) + 1, len(dictionary))])
 
 if command_handler():
     if mode == 0:

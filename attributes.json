@@ -1,15 +1,12 @@
 {
-    "attributes": ["gender", "b-type", "sign", "talent", "effort", "state", "retake", "attend", "club", "relate"],
+    "attributes": ["gender", "talent", "effort", "state", "retake", "attend", "club"],
     "options": {
         "gender": ["male", "female"],
-        "b-type": ["A", "B", "AB", "O"],
-        "sign"  : ["Aries", "Taurus", "Gemini", "Cancer", "Leo", "Virgo", "Libra", "Scorpio", "Sagittarius", "Capricorn", "Aquarius", "Pisces"],
         "talent": ["talented", "general", "clumsy"],
         "effort": ["hard-working", "general", "lazy"],
         "state" : ["nervous", "relaxed"],
         "retake": ["none", "once", "twice"],
         "attend": ["good", "bad"],
-        "club"  : ["yes", "no"],
-        "relate": ["yes", "no"]
+        "club"  : ["yes", "no"]
     }
 }

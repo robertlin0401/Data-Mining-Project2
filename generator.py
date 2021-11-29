@@ -151,7 +151,7 @@ def generate_training_data():
     for i in range(male_number):
         writer.writerow(dictionary[random.randint(1, int(len(dictionary) / 2))])
     for i in range(female_number):
-        writer.writerow(dictionary[random.randint(int(len(dictionary) / 2) + 1, len(dictionary))])
+        writer.writerow(dictionary[random.randint(int(len(dictionary) / 2) + 1, len(dictionary) - 1)])
 
 if command_handler():
     if mode == 0:
